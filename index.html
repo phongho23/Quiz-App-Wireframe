@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>What's the Phobia Quiz</h1>
+  </header>
+
+  <main>
+    <ul class="question-and-score">
+      
+      <li id="questionNum">
+          <!-- insert question num here -->
+          <p>Question # 1/5</p>
+        </li>
+
+      <li id="score">
+          <!-- insert current score here -->
+          <p>Score: 0</p>
+        </li>
+
+    </ul>
+
+    <form id="question-form" class="question-form">
+      <fieldset>
+
+        <div class="question">
+          <legend> What is Ataxophobia? </legend>
+        </div>
+        
+        <div class="options">
+          <div class="answers">
+            <div id="option-0">
+              <input type="radio" name="options" id="option1" value="paragraph" tabindex="1" required="">
+              <label for="option1"> Fear of ice cream </label>
+            </div>
+    
+            <div id="option-1">
+              <input type="radio" name="options" id="option2" value="p" tabindex="2" required="">
+              <label for="option2"> Fear of taxes or fees </label>
+            </div>
+    
+            <div id="option-2">
+              <input type="radio" name="options" id="option3" value="pre" tabindex="3" required="">
+              <label for="option3"> Fear of disorder or untidiness </label>
+                        <!-- correct answer for question #1 -->
+            </div>
+    
+            <div id="option-3">
+              <input type="radio" name="options" id="option4" value="para" tabindex="4" required="">
+              <label for="option4"> Fear of stuffed </label>
+            </div>
+          </div>
+        </div>
+        
+        <button type="submit" id="submit-answer-button" tabindex="5">Submit</button>
+
+      </fieldset>
+    </form>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

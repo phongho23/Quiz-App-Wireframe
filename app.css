@@ -1,0 +1,35 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color: black;
+  margin: 0;
+  background: cover;
+  background-color: tan;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.question-form button {
+  float: right;
+}
+
+
+
+
+
+
